@@ -6,4 +6,4 @@ flag_byte = bytes.fromhex(cipher)
 
 flag = base64.b64encode(flag_byte)
 
-print(flag)
+print(flag_byte)
